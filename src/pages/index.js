@@ -10,6 +10,9 @@ export default function Home() {
 const router = useRouter()
 const [users,setUsers] = useState([])
 
+/**
+ * To get the count of posts of each user
+ */
 const countPostsById = (posts,id) => {
   let count = 0;
   posts.forEach((post)=>{
