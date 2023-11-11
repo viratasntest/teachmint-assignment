@@ -1,0 +1,52 @@
+.main{
+  padding:3rem
+}
+.textCenter{
+  text-align: center;
+}
+.userCard{
+  width: 100%;
+  padding:1rem;
+  border: 1px solid #ffffff;
+  margin-top: 1rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #CFE1F3;
+  color:black;
+  cursor: pointer;
+}
+.timer{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.ml2{
+  margin-left: 10px;
+}
+.backBtn{
+  height: fit-content;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+.postCard{
+  border: 1px solid white;
+  padding: 1rem;
+}
+
+.title{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.body{
+  margin-top: 10px;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, calc(33.33% - 20px)));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
